@@ -19,7 +19,7 @@ header{
     word-spacing: 20px;
     text-transform: capitalize;
 }
- 
+
 .barra{
     float: right;
 }
@@ -41,15 +41,18 @@ header{
     color: black;
     text-decoration: underline;
 }
- 
+
 main{
-    height: 700px;
+    height: 800px;
     width: 100%;
+}
+ 
+.inicio{
     background-image: url(img/fondo\ mapu.jpg);
     background-size: cover;
     background-position: center;
 }
- 
+
 .call{
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -63,16 +66,30 @@ main{
 }
  
 h1{
+    color: black;
+    text-shadow: 0 0 1px #fff;
+    margin-bottom: 20px;
+}
+
+.vln{
     color: #fff;
     text-shadow: 0 0 1px #fff;
     margin-bottom: 20px;
 }
- 
+
+.rest{
+    color: #fff;
+    background-color: black;
+    text-shadow: 0 0 1px #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .call p{
     font-size: 20px;
     margin-bottom: 30px;
 }
- 
+
 .call a{
     background-color: rgb(54, 121, 54);
     color: #fff;
@@ -84,7 +101,7 @@ h1{
     background-color: black;
     border: 2px solid rgb(54, 121, 54);
 }
- 
+
 h2{
     background-color: rgb(54, 121, 54);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -105,60 +122,71 @@ h2 a:hover{
 .sec{
     height: 50pxpx;
     width: 100%;
-    background-color: rgb(107, 104, 104);
+    background-color: #fff;
     text-align: center;
 }
- 
-#sec2{
+
+#sec1{
     height: 250px;
     width: 100%;
-    color: #fff;
+    color: black;
+    background-color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 40px;
     word-spacing: 1px;
 }
- 
-#sec3{
-    height: 400px;
+
+#sec2{
+    height: 500px;
     width: 100%;
-    color: #fff;
+    color: black;
+    background-color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 40px;
     word-spacing: 1px;
 }
 
-#sec3 ul li{
-    list-style: none
-}
-
-#sec3 span{
-    color: black
+#sec3{
+    height: 00px;
+    width: 100%;
+    color: black;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+    word-spacing: 1px;
 }
 
 #sec4{
+    height: 350px;
     width: 100%;
-    color: #fff;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
+    padding: 40px;
+    word-spacing: 1px;
 }
 
 #sec5{
-    padding: 10px;
+    height: 350px;
+    width: 100%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+    word-spacing: 1px;
 }
 
 .item{
-    height: 200px;
+    height: 120px;
     width: 100%;
     background-color: #333;
     color: #fff;
     border: 2px solid #fff;
     text-align: center;
-    line-height: 120px;
+    line-height: 100px;
     font-size: 25px;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- 
+
 footer{
     height: 150px;
     background-color: rgb(54, 121, 54);
@@ -166,23 +194,23 @@ footer{
     font-size: 35px;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
 }
- 
+
 .redes{
     font-size: 40px;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
+    padding: 10px;
 }
- 
+
 .redes a{
     color: black;
 }
- 
+
 .redes a:hover{
     color: black;
     text-shadow: 0 0 5px rgb(255, 252, 252);
 }
- 
+
 .subir{
     height: 40px;
     width: 40px;
